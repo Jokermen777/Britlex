@@ -1,0 +1,9 @@
+mixin cardCost(srcImage, title, desc, price) 
+  .c-card-cost 
+    .c-card-cost__wrapper 
+      .c-card-cost__image-box 
+        img(src= srcImage, alt="Image").c-card-cost__image
+      h3.c-card-cost__title= title
+      .c-card-cost__desc= desc
+      .c-card-cost__price= price 
+        span.c-card-cost__t-info  per month

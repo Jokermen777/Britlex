@@ -1,0 +1,26 @@
+.c-contact {
+  margin: 200px 0;
+  &__wrapper {
+    @include maxCentered(1350, 20);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  &__block {
+    max-width: 775px;
+  }
+  &__title {
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 48px;
+  }
+  &__desc {
+    color: $c-cool-grey;
+    line-height: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  &__form {
+    margin-top: 30px;
+  }
+}

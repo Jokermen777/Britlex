@@ -1,0 +1,28 @@
+.c-footer {
+  margin-bottom: 20px;
+  &__wrapper {
+    border-top: 1px solid $c-cool-grey;
+    @include maxCentered(1350, 20);
+    justify-content: space-between;
+    padding-bottom  : 30px;
+    align-items: center;
+    padding-top: 30px;
+    display: flex;
+  }
+  &__list {
+    margin-left: 40px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  &__item {
+    margin-right: 40px;
+    line-height: 36px;
+    font-size: 24px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    color: $c-cool-grey;
+  }
+}

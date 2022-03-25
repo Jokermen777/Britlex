@@ -1,0 +1,29 @@
+.c-card {
+  background-color: $c-cultured;
+  border-radius: 10px;
+  max-width: 345px;
+  padding: 0 20px;
+  width: 100%;
+  &__image-block {
+    display: flex;
+    height: 320px;
+  }
+  &__image {
+    margin: auto 0;
+  }
+  &__title {
+    color: $c-gunmetal;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  &__description {
+    color: $c-cool-grey;
+    min-height: 150px;
+    line-height: 24px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  &__block-button {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,9 @@
+mixin card(imageSrc, title, desc) 
+  .c-card
+    .c-card__image-block
+      img(src= imageSrc, alt="Image").c-card__image
+    .c-card__text-block 
+      h3.c-card__title= title
+      p.c-card__description= desc
+      .c-card__block-button
+        +button('button','Learn more', 'e-button--card')
